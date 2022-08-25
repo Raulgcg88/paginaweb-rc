@@ -40,20 +40,20 @@
     <section>
         <article>
             <form>
-                <label for="nombre_apellido">Ingrese su nombre y apellido</label>
-                <input type="text" name="nombre_apellido"> <br>
-                <label for="nombre_apellido">Empresa</label>
-                <input type="text" name="empresa"> <br>
-                <label for="nombre_apellido">Correo</label>
-                <input type="text" name="correo"> <br>
-                <label for="nombre_apellido">Telefono de Contacto</label>
-                <input type="text" name="telefono_contacto"> 
-                <br>
-                <label for="interese">Intereses</label>
-                <select name="Intereses">
-                    <option value="Basic">Basic</option>
-                    <option value="Business">Business</option> 
-                 </select>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </article>
     </section>
